@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Opencv2/app/src/main/res/layout/activity_main.xml" value="0.20677083333333332" />
         <entry key="..\:/Opencv2/opencvcpp/src/main/res/layout/activity_main_cpp.xml" value="0.1" />
+        <entry key="..\:/opencv-native-android/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/opencv-native-android/opencvcpp/src/main/res/layout/activity_main_cpp.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

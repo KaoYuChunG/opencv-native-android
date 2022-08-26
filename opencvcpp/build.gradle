@@ -15,8 +15,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-//                path file('src/main/cpp/CMakeLists.txt')
-//                version '3.10.2'
                 arguments "-DOpenCV_DIR=D:/OpenCV-android-sdk/sdk/native/jni",
                         "-DANDROID_TOOLCHAIN=clang",
                         "-DANDROID_STL=c++_static"
@@ -39,10 +37,6 @@ android {
         cmake {
             path file('src/main/cpp/CMakeLists.txt')
             version '3.10.2'
-//            arguments "-DOpenCV_DIR=D:/OpenCV-android-sdk/sdk/native/jni",
-//                    "-DANDROID_TOOLCHAIN=clang",
-//                    "-DANDROID_STL=c++_static"
-//            targets "opencvcpp"
         }
     }
 }
